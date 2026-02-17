@@ -8,7 +8,16 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 
 ## � Estatísticas do GitHub
 
+### 📅 Ano Atual (2026)
+
+![GitHub Stats 2026](./profile/stats-2026.svg)
+
+### 📈 Todos os Anos
+
 ![GitHub Stats](./profile/stats.svg)
+
+### 💻 Linguagens Mais Usadas
+
 ![Top Langs](./profile/top-langs.svg)
 
 ---
@@ -54,4 +63,3 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 ## 📫 Curriculo e Certificados
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-feitosa-b05493285/)
-
