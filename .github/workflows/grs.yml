@@ -28,7 +28,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&commits_year=2026&count_private=true&hide=stars
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&commits_year=2026&count_private=true&hide=stars,prs,issues,contribs
           path: profile/stats-2026.svg
           token: ${{ secrets.GH_TOKEN }}
 
