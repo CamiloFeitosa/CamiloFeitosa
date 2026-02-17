@@ -16,16 +16,13 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           persist-credentials: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
-          node-version: "18"
-
-      - name: Generate custom stats card
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
-        run: node scripts/generate-stats.js
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=stars
+          path: profile/stats.svg
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit cards
         run: |
