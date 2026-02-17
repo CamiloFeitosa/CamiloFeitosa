@@ -57,8 +57,8 @@ async function fetchGraphQL(query) {
 
 async function getGitHubStats() {
   const query = `
-    query($username: String!) {
-      user(login: $username) {
+    query {
+      user(login: "${USERNAME}") {
         contributionsCollection {
           totalCommitContributions
           restrictedContributionsCount
@@ -88,9 +88,15 @@ async function getGitHubStats() {
         }
       }
     }
-  `.replace('$username', `"${USERNAME}"`);
+  `;
 
   const result = await fetchGraphQL(query);
+  
+  if (!result || !result.data || !result.data.user) {
+    console.error('API Response:', JSON.stringify(result, null, 2));
+    throw new Error('Invalid API response');
+  }
+  
   const user = result.data.user;
 
   const totalStars = user.repositories.nodes.reduce((acc, repo) => 
@@ -110,17 +116,23 @@ async function getGitHubStats() {
 async function getCommitsThisYear() {
   const startOfYear = `${CURRENT_YEAR}-01-01T00:00:00Z`;
   const query = `
-    query($username: String!, $from: DateTime!) {
-      user(login: $username) {
-        contributionsCollection(from: $from) {
+    query {
+      user(login: "${USERNAME}") {
+        contributionsCollection(from: "${startOfYear}") {
           totalCommitContributions
           restrictedContributionsCount
         }
       }
     }
-  `.replace('$username', `"${USERNAME}"`).replace('$from', `"${startOfYear}"`);
+  `;
 
   const result = await fetchGraphQL(query);
+  
+  if (!result || !result.data || !result.data.user) {
+    console.error('API Response:', JSON.stringify(result, null, 2));
+    throw new Error('Invalid API response for commits');
+  }
+  
   const contributions = result.data.user.contributionsCollection;
   
   return contributions.totalCommitContributions + contributions.restrictedContributionsCount;
@@ -218,6 +230,10 @@ function generateSVG(stats, commitsThisYear) {
 
 async function main() {
   try {
+    console.log('Username:', USERNAME);
+    console.log('Token present:', !!TOKEN);
+    console.log('Current year:', CURRENT_YEAR);
+    
     console.log('Fetching GitHub stats...');
     const stats = await getGitHubStats();
     
@@ -240,6 +256,9 @@ async function main() {
     console.log(`Commits (${CURRENT_YEAR}): ${commitsThisYear}`);
   } catch (error) {
     console.error('❌ Error:', error.message);
+    if (error.stack) {
+      console.error('Stack:', error.stack);
+    }
     process.exit(1);
   }
 }
