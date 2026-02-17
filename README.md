@@ -6,7 +6,14 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 
 ---
 
-## 💻 Tecnologias e Ferramentas
+## � Estatísticas do GitHub
+
+![GitHub Stats](./profile/stats.svg)
+![Top Langs](./profile/top-langs.svg)
+
+---
+
+## �💻 Tecnologias e Ferramentas
 
 ### Front-end
 
