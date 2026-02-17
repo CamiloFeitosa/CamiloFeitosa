@@ -9,12 +9,7 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 ## � Estatísticas do GitHub
 
 <div align="center">
-  <img src="./profile/stats-2026.svg" alt="GitHub Stats 2026" width="49%" />
-  <img src="./profile/stats.svg" alt="GitHub Stats" width="49%" />
-</div>
-
-<div align="center">
-  <sub>📅 <b>Ano Atual (2026)</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📈 <b>Todos os Anos</b></sub>
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
 </div>
 
 ---
