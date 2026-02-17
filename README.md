@@ -8,17 +8,14 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 
 ## � Estatísticas do GitHub
 
-### 📅 Ano Atual (2026)
+<div align="center">
+  <img src="./profile/stats-2026.svg" alt="GitHub Stats 2026" width="49%" />
+  <img src="./profile/stats.svg" alt="GitHub Stats" width="49%" />
+</div>
 
-![GitHub Stats 2026](./profile/stats-2026.svg)
-
-### 📈 Todos os Anos
-
-![GitHub Stats](./profile/stats.svg)
-
-### 💻 Linguagens Mais Usadas
-
-![Top Langs](./profile/top-langs.svg)
+<div align="center">
+  <sub>📅 <b>Ano Atual (2026)</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📈 <b>Todos os Anos</b></sub>
+</div>
 
 ---
 
