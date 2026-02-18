@@ -6,7 +6,7 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 
 ---
 
-## � Estatísticas do GitHub
+## Estatísticas do GitHub
 
 <div align="center">
   <img src="./profile/stats.svg" alt="GitHub Stats" />
@@ -14,7 +14,7 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 
 ---
 
-## �💻 Tecnologias e Ferramentas
+## 💻 Tecnologias e Ferramentas
 
 ### Front-end
 
@@ -22,11 +22,13 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 ### Back-end
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 
 ### Banco de Dados
 
