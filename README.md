@@ -50,7 +50,7 @@ Sou um desenvolvedor apaixonado por tecnologia e inovação, com experiência em
 - 🌱 Sempre aprendendo novas tecnologias e frameworks
 - 👯 Aberto a colaborações em projetos interessantes
 - 💬 Pergunte-me sobre desenvolvimento web, APIs e arquitetura de software
-- ⚡ Fato curioso: Apaixonado por resolver problemas complexos
+- ⚡ Fato curioso: Sempre sou instigado por resolver problemas complexos
 
 ---
 
